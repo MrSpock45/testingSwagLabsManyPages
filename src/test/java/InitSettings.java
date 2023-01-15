@@ -34,6 +34,6 @@ public class InitSettings {
         // options.addExtensions(new File("resources\\CryptoProOld.crx"));
         capabilities.setCapability(ChromeOptions.CAPABILITY, options);
         Configuration.browserCapabilities = capabilities;
-        // Configuration.remote = "http://jenkins-slave.ref-tl.local:4444/wd/hub/";
+
     }
 }
